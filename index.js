@@ -7,9 +7,7 @@ const login = require("./route/login");
 const products = require("./route/product");
 const cors = require("cors");
 dotenv.config();
-
 const app = express();
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(
